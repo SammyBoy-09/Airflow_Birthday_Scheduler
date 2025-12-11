@@ -126,7 +126,7 @@ Airflow_Birthday_Scheduler/
 │   ├── load.py                     # Data saving
 │   └── email_utils.py              # Email sending
 │
-├── 📂 data/
+├── 📂 data/      
 │   ├── raw/birthdays.csv           # INPUT: Your birthday data
 │   └── processed/                  # OUTPUT: Cleaned data
 │
@@ -371,28 +371,6 @@ taskkill /PID <PID> /F
 
 ---
 
-## 🧪 Testing
-
-### Test Individual Components
-
-```powershell
-# Run test script
-python test_pipeline.py
-```
-
-### Test with Today's Date
-
-1. Add to `data/raw/birthdays.csv`:
-   ```csv
-   Test User,your.email@example.com,2025-12-11
-   ```
-   (Use today's actual date)
-
-2. Trigger DAG manually in Airflow UI
-3. Check email inbox
-
----
-
 ## 📦 Dependencies
 
 ### Docker Services
@@ -442,45 +420,9 @@ Extend `scripts/extract.py` to support databases, APIs, etc.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
----
-
 ## 📄 License
 
 MIT License - See LICENSE file for details
-
----
-
-## 👨‍💻 Author
-
-Created for automated birthday email management using Apache Airflow.
-
----
-
-## 🙏 Acknowledgments
-
-- Apache Airflow community
-- Docker team
-- Python pandas developers
-
----
-
-## 📞 Support
-
-For issues:
-1. Check the troubleshooting section above
-2. Review documentation files
-3. Check Airflow task logs
-4. Create an issue on GitHub
 
 ---
 
@@ -517,5 +459,3 @@ The system is now ready to:
 ---
 
 **Repository:** https://github.com/SammyBoy-09/Airflow_Birthday_Scheduler
-
-**Questions?** Check the documentation or create an issue on GitHub.
