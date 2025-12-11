@@ -57,7 +57,7 @@ class EmailSender:
         May this year bring you success, happiness, and countless memorable moments.
         
         Warm wishes,
-        Birthday Scheduler Team
+        Samuel Lazar
         """
         
         # HTML version
@@ -68,7 +68,7 @@ class EmailSender:
             <div style="max-width: 600px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
               <h1 style="color: #FF6B6B; text-align: center;">🎉 Happy Birthday {name}! 🎉</h1>
               <div style="margin: 30px 0; text-align: center;">
-                <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/6WFScxN6fi95z3YVQD" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/happy-birthday-poku-meow-6WFScxN6fi95z3YVQD">via GIPHY</a></p>
+                <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHE3d25jdHBneXFkZ3dvNW9tOTJ0djlzcGtzc3g3NXFqMGJmYnQyaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6WFScxN6fi95z3YVQD/giphy.gif" alt="Birthday Cake" style="max-width: 300px; border-radius: 10px;">
               </div>
               <p style="font-size: 16px; line-height: 1.6; color: #333;">
                 Wishing you a <strong>fantastic day</strong> filled with joy, laughter, and all the things you love!
