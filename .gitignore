@@ -60,3 +60,13 @@ htmlcov/
 # Temporary files
 *.tmp
 *.temp
+
+# Local documentation files (keep locally, not in repo)
+COMMANDS.md
+GETTING_STARTED.md
+INDEX.md
+PROJECT_SUMMARY.md
+QUICKSTART.md
+setup.ps1
+stop.ps1
+test_pipeline.py
