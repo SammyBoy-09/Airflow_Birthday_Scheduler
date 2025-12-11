@@ -1,0 +1,34 @@
+# Birthday Email Scheduler Configuration
+
+# Data Source Configuration
+data_source:
+  input_path: "data/raw/birthdays.csv"
+  input_format: "csv"
+
+# Data Destination Configuration
+data_destination:
+  processed_path: "data/processed/cleaned_birthdays.csv"
+  output_format: "csv"
+
+# Email Configuration
+email:
+  enabled: true
+  test_mode: false  # Set to true to prevent actual email sending during testing
+  
+# Data Cleaning Rules
+cleaning:
+  remove_duplicates: true
+  validate_emails: true
+  drop_invalid_emails: true
+  standardize_names: true
+  
+# Schedule Configuration
+schedule:
+  # Cron expression: Run daily at 9:00 AM IST
+  cron: "0 9 * * *"
+  timezone: "Asia/Kolkata"  # IST (Indian Standard Time)
+  
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
