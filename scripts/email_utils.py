@@ -68,7 +68,7 @@ class EmailSender:
             <div style="max-width: 600px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
               <h1 style="color: #FF6B6B; text-align: center;">🎉 Happy Birthday {name}! 🎉</h1>
               <div style="margin: 30px 0; text-align: center;">
-                <img src="https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif" alt="Birthday Cake" style="max-width: 300px; border-radius: 10px;">
+                <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/6WFScxN6fi95z3YVQD" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/happy-birthday-poku-meow-6WFScxN6fi95z3YVQD">via GIPHY</a></p>
               </div>
               <p style="font-size: 16px; line-height: 1.6; color: #333;">
                 Wishing you a <strong>fantastic day</strong> filled with joy, laughter, and all the things you love!
@@ -77,7 +77,7 @@ class EmailSender:
                 May this year bring you success, happiness, and countless memorable moments. 🌟
               </p>
               <div style="margin-top: 30px; padding-top: 20px; border-top: 2px solid #FF6B6B; text-align: center; color: #666;">
-                <p>Warm wishes,<br><strong>Birthday Scheduler Team</strong></p>
+                <p>Warm wishes,<br><strong>Samuel Lazar</strong></p>
               </div>
             </div>
           </body>
